@@ -1,5 +1,16 @@
 # Brain Tumor Detection Using Deep Learning
 
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/Brain-Tumor-Detection.git
+cd Brain-Tumor-Detection
+```
+---
+
+
 ## Overview
 
 This project implements a Brain Tumor Detection System using Deep Learning and Transfer Learning techniques. The model classifies MRI brain scan images into two categories:
@@ -128,23 +139,6 @@ To load the model:
 from tensorflow.keras.models import load_model
 
 model = load_model("brain_tumor_model.keras")
-```
-
----
-
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/Brain-Tumor-Detection.git
-cd Brain-Tumor-Detection
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
 ```
 
 ---
